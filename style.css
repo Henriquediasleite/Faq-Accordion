@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f0ff;
+    color: #2f1533;
+    font-family: "Work Sans", sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+.img-header{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+}
+
+.faq-section{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.img-star{
+    height: auto;
+    width: 25px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 1rem 0;
+}
+
+.faq-question span {
+  font-weight: bold;
+  text-align: left;
+  font-size: 18px;
+  color: #2f1533;
+}
+
+.faq-question .icon {
+    height: auto;
+    width: 25px;
+  cursor: pointer;
+}
